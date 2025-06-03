@@ -3,7 +3,7 @@ rho = 28;
 sigma = 10;
 beta = 8/3;
 
-% Define the right hand side of the Lorenz system (1) as an
+% Define the right hand side of the Lorenz system as an
 % anonymous function. It should follow the form
 f = @(t,x) lorenz(t,x,sigma,rho,beta);
 
